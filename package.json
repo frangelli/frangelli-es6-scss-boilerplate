@@ -1,0 +1,38 @@
+{
+  "name": "frangelli-es6-scss-boilerplate",
+  "version": "1.0.0",
+  "description": "Enter here your project description.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.js",
+    "test": "NODE_ENV=test jest --config jest.config.js",
+    "test:watch": "NODE_ENV=test jest --config jest.config.js --watch"
+  },
+  "author": "Leonardo Frangelli",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "babel-jest": "24.8.0",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
+    "eslint": "6.1.0",
+    "file-loader": "4.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "jest": "24.8.0",
+    "node-sass": "4.12.0",
+    "postcss-loader": "3.0.0",
+    "precss": "4.0.0",
+    "sass-loader": "7.2.0",
+    "style-loader": "1.0.0",
+    "url-loader": "2.1.0",
+    "webpack": "4.39.1",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.8.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "7.4.4",
+    "jquery": "3.4.1"
+  }
+}
